@@ -1,0 +1,39 @@
+<html>
+<head>
+  <title>Component slot example</title>
+  <script src="https://unpkg.com/vue"></script>
+ </head>
+<body>
+<div id="app">
+
+</div>
+<script type="text/javascript">
+Vue.component("simple-component", {
+  template: `
+<div>
+<slot name="title"></slot>
+<slot name="description"></slot>
+</div>
+`
+});
+
+new Vue({
+  el: "#app",
+  template: `
+<simple-component>
+<h2 slot="title">H2 Title from named "title" slot</h2>
+
+<p> This <p> should not be seen since not named slot and normal slot is not declared in the component </p>
+
+
+<p slot="description">
+Text from named "description" slot
+</p>
+
+</simple-component>
+`
+});
+
+   </script>
+  </body>
+</html>

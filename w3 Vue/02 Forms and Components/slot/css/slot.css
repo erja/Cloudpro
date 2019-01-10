@@ -1,0 +1,32 @@
+body {
+  background: linear-gradient(270deg, #0E6251, #28B463);
+}
+#app {
+  display: flex;
+}
+.my-list {
+  flex: 1 1 50%;
+  font-family: Arial;
+  color: white;
+  margin: 20px;
+}
+.title {
+    background: #A93226;
+    font-weight: bold;
+    font-size: 22px;
+  }
+.list {
+    background: #34495E;
+    font-size: 16px;
+  }
+.list-item:not(:last-child) {
+    padding-bottom: 15px;
+  }
+
+
+.swatch {
+  display: inline-block;
+  width: 15px;
+  height: 10px;
+  margin-right: 8px;
+}

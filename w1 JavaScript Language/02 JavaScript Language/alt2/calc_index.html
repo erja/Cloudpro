@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Oh my calculator!</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header>
+            <h1>Laskin</h1>
+        </header>
+
+        <section>
+            <p>
+                <input type="text" id="firstValue" value="0" />
+                <input type="text" id="secondValue" value="0" />
+            </p>
+
+            <p>
+                <input type="button" value="+" onclick="plus();" />
+                <input type="button" value="*" onclick="mult();" />
+            </p>
+
+
+            <p>Result: <span id="result"></span></p>
+        </section>
+
+        <script src="calc.js"></script>
+    </body>
+</html>

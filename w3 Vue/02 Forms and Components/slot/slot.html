@@ -1,0 +1,30 @@
+<!doctype html>
+<html data-framework="vue">
+<head>
+	<title>A Vue.js slot example </title>
+	<link href="css/slot.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+<div id="app">
+  <!--Persons-->
+  <my-list :items="persons" title="People">
+    <template slot-scope="person">
+      <div>{{ person.name }} <small>({{ person.tweet }} tweets)</small></div>
+    </template>
+  </my-list>
+</div>
+
+<script type="text/x-template" id="my-list">
+<div class="my-list">
+  <div class="title">{{ title }}</div>
+  <div class="list">
+    <div class="list-item" v-for="item in items">
+      <slot v-bind="item"></slot>
+    </div>
+  </div>
+</div>
+</script>
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+<script type="text/javascript" src="js/slot.js"></script>
+</body>
+</html>
