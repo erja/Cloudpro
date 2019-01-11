@@ -70,7 +70,7 @@ You will notice that your remote called *origin* now points to your new GitLab r
 
 Finally we need to configure Git on Cloud 9 with our name and email address. Make sure this matches the name and email you used when setting up your GitLab account.
 
-##1.3 The course repository has changed
+## 1.3 The course repository has changed
 
 Over the course of the module there will be changes made to the original read-only repository on GitHub. To allow access to these changes you will need to add a second remote to your local Cloud 9 repository (we will label this as the *upstream* repository).
 
