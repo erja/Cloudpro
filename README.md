@@ -70,7 +70,7 @@ You will notice that your remote called *origin* now points to your new GitLab r
 
 Finally we need to configure Git on Cloud 9 with our name and email address. Make sure this matches the name and email you used when setting up your GitLab account.
 
-##1.3 The course repository has changed
+## 1.3 The course repository has changed
 
 Over the course of the module there will be changes made to the original read-only repository on GitHub. To allow access to these changes you will need to add a second remote to your local Cloud 9 repository (we will label this as the *upstream* repository).
 
@@ -88,7 +88,7 @@ course	https://github.com/erja/Cloudpro.git (push)
 You pull down any new files or changes from the GitHub repository and merge them into your local copy. In this way you will always have the latest versions of the teaching materials. 
 
 ```
-$ git pull kurssi master
+$ git pull course master
 ```
 
 
@@ -138,22 +138,22 @@ If this fails to install nvm you may need to run the command as sudo. If this fa
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash
 ```
 
-After checking the current version, our next task is to list all the versions we can install and install the latest version. As of writing (January 2017) the latest version was v6.9.3. Finally we check that we are now using the latest version.
+After checking the current version, our next task is to list all the versions we can install and install the latest version. As of writing (January 2019) the latest version was v10.15.0. Finally we check that we are now using the latest version.
 ```
 node -v
   v4.6.1
 nvm list-remote
-nvm install 6.9.3
+nvm install 10.15.0
 node -v
-  v6.9.3
+  v10.15.0
 ```
 Try closing the current terminal window and opening another one. If you check the current version on Node you will see that it has reverted back to the previously installed one! This is because the old version is flagged as the _default_. To fix this we need to set our new version as default.
 ```
 node -v
   v4.6.1
-nvm alias default 6.9.3
+nvm alias default 10.15.0
 node -v
-  v6.9.3
+  v10.15.0
 ```
 To check that this has has the desired effect, close the current terminal window, open a new one and check the current node version.
 
