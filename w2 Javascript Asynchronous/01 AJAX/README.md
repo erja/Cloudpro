@@ -181,7 +181,7 @@ Since we assume that `getSync` actually returns a JSON string in this case, ther
 ### TODO 6 Test your Understanding
 
 Note:
-Wordnik requires an API token which you can get, but it can take some time. There are not very many free dictionaries available, one which you can use is https://www.datamuse.com/api/ is a strictly read-only service and an API token is not required. 
+Wordnik requires an API token which you can get, but it can take some time. There are not very many free dictionaries available, one which you can use is https://www.datamuse.com/api/ a strictly read-only service and not requiring an API token. 
 If you use **datamuse** you have to modify the next assignment according to what you get from the API.
 
 - Parse the content of the `chapter` objects returned by the `getJsonSync` as they come in from the server:
