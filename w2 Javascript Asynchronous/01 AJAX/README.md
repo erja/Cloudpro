@@ -180,6 +180,10 @@ Since we assume that `getSync` actually returns a JSON string in this case, ther
 
 ### TODO 6 Test your Understanding
 
+Note:
+Wordnik requires an API token which you can get, but it can take some time. There are not very many free dictionaries available, one which you can use is https://www.datamuse.com/api/ is a strictly read-only service and an API token is not required. 
+If you use **datamuse** you have to modify the next assignment according to what you get from the API.
+
 - Parse the content of the `chapter` objects returned by the `getJsonSync` as they come in from the server:
   - If the HTML attribute contains the word “dictum” then make a AJAX call to a dictionary API that returns JSON, such as one of the API endpoints listed on the [Wordnik API documentation](http://developer.wordnik.com/docs.html#!/word/get_definitions)
   - Parse the JSON response for a definition of the word and dynamically add a DOM element to the HTML page containing the term “dictum” along with the returned definition.
