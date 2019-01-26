@@ -79,7 +79,9 @@ which basically has this data.
 <input type="button" onClick="divideBy()" Value="Divide" />
 ```
 Add these buttons to your in HTML file, but vuelize them.
+
 3. Make another file logic.js where you put your Javascript for multiplying and dividing numbers. 
+
 4. Make this modular application to work and check it out with developer tools.
 
 ## 3 Local Storage
