@@ -9,13 +9,13 @@
  <blog-post
   v-for="post in posts"
   v-bind:key="post.id"
-  v-bind:post="post.title"
+  v-bind:post="post"
 ></blog-post>
 </div>
 <script type="text/javascript">
 Vue.component('blog-post', {
   props: ['post'],
-  template: '<h3>{{ post.title }}</h3>'
+  template: '<div class="blog-post"><h3>{{ post.title }}</h3></div>'
 })
 new Vue({
   el: '#blog-post-demo',
