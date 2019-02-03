@@ -2,7 +2,7 @@
 "use strict"
 
 const readline = require('readline-sync')
-
+let cost = 0;
 const type = String(readline.question('membership type (basic, premium, gold): ')).trim()
 const years = Number(readline.question('years required: '))
 
