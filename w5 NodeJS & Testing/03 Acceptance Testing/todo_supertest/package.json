@@ -1,0 +1,35 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "Simple API to maintain to do lists.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha 'test/todo-spec.js'"
+  },
+  "keywords": [
+    "api",
+    "restify",
+    "tutorial"
+  ],
+  "author": "Erja Nikunen",
+  "license": "ISC",
+  "dependencies": {
+    "csprng": "^0.1.1",
+    "restify": "^4.0.3",
+    "xmlbuilder": "^3.1.0"
+  },
+  "devDependencies": {
+    "should": "^13.2.3",
+    "supertest": {
+      "dev": true,
+      "integrity": "sha512-WZWbwceHUo2P36RoEIdXvmqfs47idNNZjCuJOqDz6rvtkk8ym56aU5oglORCpPeXGxT7l9rkJ41+O1lffQXYSA==",
+      "requires": {
+        "methods": "^1.1.2",
+        "superagent": "^3.8.3"
+      },
+      "resolved": "https://registry.npmjs.org/supertest/-/supertest-3.4.2.tgz",
+      "version": "3.4.2"
+    }
+  }
+}
