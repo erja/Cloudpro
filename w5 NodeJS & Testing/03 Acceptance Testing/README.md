@@ -41,7 +41,7 @@ Start by opening the `todo_supertest/` directory and installing the module depen
 You can run supertest tests with `npm test` command. You'll see there are two tests
 succeeding.
 
-## TODO 1 Test Your Knowledge
+## TODO 2 Test Your Knowledge
 
 1. create a new test `DELETE /lists` and add it at the start of the test. Eventually this should clear all the lists in the API and return success, lists deleted.
 2. run your tests, they should fail (we have not written the new API feature!
