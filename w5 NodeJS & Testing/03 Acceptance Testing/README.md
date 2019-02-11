@@ -48,3 +48,13 @@ succeeding.
 3. implement `DELETE /lists`. The tests will pass to indicate success.
 
 
+# EXTRA for the break
+
+## TODO 3 EXTRA: Test Your knowledge
+
+In the week 4 01 set you had a lab exercise:
+Make a project for Vue-based chat. Later you can try to expand this to use your own Nodejs REST API for chat messages.
+
+Use restify (or some other module) to implement the server side for your chat. The you'll a REST API and a Vue user interface for your application. Test your application with some test framewotk or Postman.
+
+Depending on how extensive your application is, you get 1-4 points of this TODO.
