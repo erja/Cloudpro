@@ -49,6 +49,8 @@ Make sure your IDE is configured so you can see access all of the following file
 
 In the previous section all module calls resolved immediately however it is often the case that a call may take a callback parameter to be executed in a different thread. Obviously we need to be able to test this type of code.
 
+The application is using Google maps API which requires API keys. If you don't have them, you can use the [Open Street map API](https://wiki.openstreetmap.org/wiki/API_v0.6).
+
 In this task we will be testing and debugging a module that uses third-party APIs to calculate taxi fares between named places. Taxi fares are calculated according to an [agreed formula](https://yourtaximeter.com/local-authorities/view/london-black-cabs). Start by understanding the project files.
 ```
 .
