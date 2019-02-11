@@ -92,6 +92,7 @@ JavaScript handles long-running processes in their own threads to prevent blocki
   Again Google need API keys, if you don't have them use [Open Library API](https://openlibrary.org/developers/api).
   
 2. Make sure you handle any possible errors such as an invalid id.
+
 3. Modify the `books/index.js` file so you can test it by using the _describe_ command.
 
 ### TODO 4 Advanced Challenge
